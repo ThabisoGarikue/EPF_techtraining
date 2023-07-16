@@ -4,7 +4,7 @@ def LCM():
 
     while sum == 0:
         found = True
-        for num in range(11, 21):
+        for num in range(1, 21):
             if multiple % num != 0:
                 found = False
                 break
